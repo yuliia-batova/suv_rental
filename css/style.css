@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Roboto Condensed";
   src: url("../fonts/RobotoCondensed-R.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -29,8 +29,8 @@ a {
 
 .container {
   max-width: 1220px;
-  padding: 0 10px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 body {
@@ -100,8 +100,8 @@ body {
 }
 
 .intro__slider-item {
-  text-align: center;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .intro__slider-img {
@@ -129,14 +129,14 @@ body {
 }
 
 .slick-dots button {
-  font-size: 0;
   width: 8px;
   height: 8px;
-  background-color: #571818;
-  border-radius: 50%;
-  border: none;
-  padding: 0;
   margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  background-color: #571818;
+  border: none;
+  border-radius: 50%;
 }
 
 .slick-active button {
@@ -159,28 +159,28 @@ body {
 }
 
 .intro__content-title {
+  margin-bottom: 50px;
   font-size: 48px;
   line-height: 58px;
-  margin-bottom: 50px;
 }
 
 .intro__content-text {
+  margin-bottom: 59px;
+  padding: 0 50px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  margin-bottom: 59px;
-  padding: 0 50px;
 }
 
 .btn-download {
+  padding: 15px 18px 16px 19px;
   text-transform: uppercase;
   color: #fefefe;
   background-color: #219653;
-  padding: 15px 18px 16px 19px;
+  border: 1px solid transparent;
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s;
-  border: 1px solid transparent;
 }
 
 .btn-download:hover {
@@ -197,8 +197,8 @@ body {
 
 .intro__bottom-items,
 .intro__bottom-links {
-  width: 50%;
   display: flex;
+  width: 50%;
 }
 
 .intro__bottom-links {
@@ -206,9 +206,9 @@ body {
 }
 
 .intro__bottom-link {
+  padding-bottom: 5px;
   color: #1b1818;
   border-bottom: 1px solid #1b1818;
-  padding-bottom: 5px;
 }
 
 .intro__bottom-link + .intro__bottom-link {
@@ -220,18 +220,21 @@ body {
 }
 
 .intro__bottom-item {
-  border-radius: 30px;
-  border: 1px solid #571818;
   max-width: 146px;
   width: 100%;
   min-height: 150px;
+}
+
+.frame {
   text-align: center;
+  border-radius: 30px;
+  border: 1px solid #571818;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   transition: transform 0.5s;
 }
 
-.intro__bottom-item:hover {
+.frame:hover {
   transform: scale(1.25);
 }
 
