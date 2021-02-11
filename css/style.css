@@ -134,7 +134,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-size: 0;
-  background-color: #571818;
+  background-color: #219653;
   border: none;
   border-radius: 50%;
 }
@@ -375,5 +375,37 @@ body {
   background-image: url(../images/advan_icon.svg);
 }
 
+.reviews {
+  background-color: #571818;
+}
 
+.reviews__item {
+  border: 1px solid #219653;
+  padding: 40px 30px 50px 30px;
+  width: 270px;
+  height: 300px;
+  margin-bottom: 58px;  
+  cursor: default;
+}
 
+.reviews__item:hover {
+  transform:none;
+}
+
+.reviews__inner {
+  padding: 36px 0 100px;
+}
+
+.reviews__title {
+  margin-bottom: 111px;  
+} 
+
+.reviews__title,
+.reviews__item-title,
+.reviews__item-text {
+  color: #fefefe;
+}
+
+.reviews__item-title {
+  margin-bottom: 47px;
+}
