@@ -246,7 +246,11 @@ body {
   border: 1px solid #571818;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  transition: transform 0.5s;
+  transition: transform 0.5s;    
+}
+
+.item + .item {
+  margin-left: 30px;
 }
 
 .item:hover {
@@ -267,33 +271,37 @@ body {
   text-align: center;
 }
 
-.rent__title {
-  padding: 35px 0;
+.rent__inner {
+  padding: 35px 172px 23px;
 }
 
-.rent__items {
-  padding: 0 172px;
-  margin-bottom: 27px;
+.rent__title {
+  margin-bottom: 35px;
 }
 
 .rent__item {
-  max-width: 250px;
-  padding: 0 38px;  
+  width: 250px;    
+  padding: 30px 37px 27px 37px;  
 }
 
 .rent__item-img {
-  margin-top: 30px;
   margin-bottom: 22px;
 }
 
-.rent__item-title {
-  margin-bottom: 22px;
+.rent__item-title {  
+  margin: 0 auto;
+  padding-bottom: 25px;
 }
 
-.rent__item-text {
-  margin-bottom: 42px;
+.rent__item-title--br {  
+  max-width: 154px;
 }
 
 .rent__btn {
-  margin-bottom: 23px;
+  margin-top: 43px;
+  margin-bottom: 16px;  
+}
+
+.advantage__inner {
+  
 }
