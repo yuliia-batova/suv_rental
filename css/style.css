@@ -39,12 +39,12 @@ body {
   min-height: 100px;
 }
 
-.phone,
-.menu__link {
+.menu__link,
+.phone {
   font-size: 18px;
   line-height: 21px;
-  color: #fefefe;
   text-transform: uppercase;
+  color: #fefefe;  
 }
 
 .menu,
@@ -108,8 +108,8 @@ body {
 }
 
 .slick-dots {
-  list-style: none;
   text-align: center;
+    list-style: none;  
 }
 
 .slick-dots li {
@@ -176,6 +176,7 @@ body {
 }
 
 .btn-download {
+  display: inline-block;
   padding: 15px 18px 16px 19px;
   text-transform: uppercase;
   color: #fefefe;
@@ -183,8 +184,7 @@ body {
   border: 1px solid transparent;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.5s;
-  display: inline-block;
+  transition: all 0.5s;  
 }
 
 .btn-download:hover {
@@ -221,8 +221,8 @@ body {
 }
 
 .intro__bottom-items {
-  padding: 0 45px;
   width: 50%;
+  padding: 0 45px;  
 }
 
 .intro__bottom-item {
@@ -271,7 +271,8 @@ body {
 }
 
 .rent__item {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   padding: 30px 37px 27px 37px;
 }
 
@@ -307,21 +308,21 @@ body {
   align-items: center;
 }
 
-.advantage__list {
-  list-style: none;
+.advantage__list {  
   text-align: right;
+  list-style: none;
 }
 
 .advantage__list-item {
-  margin-bottom: 18px;
-  padding-right: 56px;
   position: relative;
+  margin-bottom: 18px;
+  padding-right: 56px;  
 }
 .advantage__list-item::after {
   content: "";
   position: absolute;
-  right: 0;
   top: 2px;
+  right: 0;  
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -344,14 +345,14 @@ body {
 }
 
 .video-popup {
-  background-color: #219653;
-  text-transform: uppercase;
-  color: #fefefe;
-  border-radius: 30px;
-  padding: 6px 34px 6px 64px;
-  text-align: center;
-  display: inline-block;
   position: relative;
+  display: inline-block;
+  padding: 6px 34px 6px 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fefefe;
+  background-color: #219653;
+  border-radius: 30px;  
 }
 
 .video-popup::before {
@@ -365,11 +366,11 @@ body {
 }
 
 .reviews__item {
-  border: 1px solid #219653;
-  padding: 40px 30px 50px 30px;
-  width: 270px;
-  height: 300px;
+  max-width: 270px;
+  height: 300px;     
   margin-bottom: 58px;
+  padding: 40px 30px 50px 30px;  
+  border: 1px solid #219653;
   cursor: default;
 }
 
@@ -396,8 +397,8 @@ body {
 }
 
 .questions__inner {
-  padding: 100px 0;
   display: flex;
+  padding: 100px 0;  
   align-items: center;
 }
 
@@ -410,9 +411,9 @@ body {
   margin: 0 auto;
 }
 
-.questions__title {
-  text-align: left;
+.questions__title {  
   margin-bottom: 5px;
+  text-align: left;
 }
 
 .question__text {
@@ -426,8 +427,8 @@ body {
 }
 
 .question__input {
-  padding: 20px 0;
   width: 100%;
+  padding: 20px 0;  
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
