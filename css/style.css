@@ -47,13 +47,15 @@ body {
   text-transform: uppercase;
 }
 
-.menu {
+.menu,
+.footer__social {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.menu__item {
+.menu__item,
+.footer__social-item {
   display: inline-block;
 }
 
@@ -182,6 +184,7 @@ body {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s;
+  display: inline-block;
 }
 
 .btn-download:hover {
@@ -286,8 +289,7 @@ body {
 }
 
 .rent__btn {
-  margin-top: 43px;
-  margin-bottom: 16px;
+  margin-top: 27px;  
 }
 
 .advantage__inner {
@@ -445,4 +447,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
+}
+
+.footer__phone {
+  margin-left: 70px;
+}
+
+.footer__social-item + .footer__social-item {
+  margin-left: 35px;
 }
